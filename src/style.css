@@ -1,1 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+    background-color: green;  
+    position: relative;
+}
+.container{
+    position: absolute;
+    margin-left: 500px;
+    margin-right: auto;
+}
+.card{
+    height: 500px;
+    width: 340px;
+    background-color: white;
+    border: black;
+    border-radius: 5%;
+    margin-top: 30px;
+}
+.heart-card{
+    color: red;
+}
+#top-suit{
+    height: 100px;
+    font-size: 120px;
+    margin: 10px;
+}
+#bottom-suit{
+    height: 100px;
+    font-size: 120px;
+    transform: rotate(180deg);
+    margin: 10px;
+}
+#random-number{
+    height: 200px;
+    font-size: 180px;
+    text-align: center;
+    margin: 50px auto;
+}
